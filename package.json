@@ -2,8 +2,8 @@
 "name": "Bot Discord",
 "Description": "Discord App",
 "Version": "Alplha",
-"main": "bot.js"
-"scripts" {
+"main": "bot.js",
+"scripts": {
 "start": "node bot.js"
 },
 
