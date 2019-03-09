@@ -1,0 +1,14 @@
+{
+"name": "Bot Discord",
+"Description": "Discord App",
+"Version": "Alplha",
+"main": "bot.js"
+"scripts": {
+"start": "node bot.js"
+},
+
+"dependencies": {
+"discord.js": "11.4",
+"request": "2.81.0"
+} 
+ }
