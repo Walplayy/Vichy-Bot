@@ -1,5 +1,5 @@
 {
-"name": "Bot Discord",
+"name": "Bot",
 "Description": "Discord App",
 "Version": "Alplha",
 "main": "bot.js",
