@@ -1,12 +1,14 @@
 const discord = require("discord.js");
-const config = require("./config.json");
-const bot = new discord.Client({disableEveryone: true});
-
-client.on('ready', () => {
-console.log('Vichy au rapport!');
+const token = require("./token.json").token;
+const bot = new discord.Client({
+  disableEveryone: true
 });
- 
- //code ici
- 
-bot.login(config.token);
+require("./lib/functions")(bot);
 
+bot.commands = new discord.Collection();
+bot.aliases = new discord.Collection();
+bot.afk = new Map();
+
+module.exports.bot = bot;
+
+bot.login(token);
