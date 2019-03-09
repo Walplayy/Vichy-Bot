@@ -3,7 +3,7 @@
 "Description": "Discord App",
 "Version": "Alplha",
 "main": "bot.js"
-"scripts": {
+"scripts" {
 "start": "node bot.js"
 },
 
