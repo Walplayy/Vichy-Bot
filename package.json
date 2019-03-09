@@ -1,14 +1,14 @@
 {
-"name": "Bot",
-"Description": "Discord App",
-"Version": "Alplha",
-"main": "bot.js",
-"scripts": {
-"start": "node bot.js"
-},
-
-"dependencies": {
-"discord.js": "11.4",
-"request": "2.81.0"
-} 
- }
+  "name": "tutorialbot",
+  "version": "1.0.0",
+  "description": "A Tutorial Bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Walplay",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
